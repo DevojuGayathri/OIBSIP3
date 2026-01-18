@@ -1,0 +1,210 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Modern Digital Solutions</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i> TechFlow
+            </div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="cta-btn">Get Started</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to TechFlow</h1>
+            <p>Innovative Digital Solutions for Modern Businesses</p>
+            <button class="hero-btn">Explore Now</button>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Our Features</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>Lightning Fast</h3>
+                <p>Experience blazing fast performance with our optimized infrastructure and cutting-edge technology stack.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure & Reliable</h3>
+                <p>Your data is protected with enterprise-grade security protocols and 99.9% uptime guarantee.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Easy Collaboration</h3>
+                <p>Work seamlessly with your team using our intuitive collaboration tools and real-time updates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-number">01</div>
+                <h3>Web Development</h3>
+                <p>Custom websites built with modern technologies to help your business shine online.</p>
+            </div>
+
+            <div class="service-item">
+                <div class="service-number">02</div>
+                <h3>Mobile Apps</h3>
+                <p>Powerful iOS and Android applications designed for optimal user experience and performance.</p>
+            </div>
+
+            <div class="service-item">
+                <div class="service-number">03</div>
+                <h3>Cloud Solutions</h3>
+                <p>Scalable cloud infrastructure that grows with your business needs and requirements.</p>
+            </div>
+
+            <div class="service-item">
+                <div class="service-number">04</div>
+                <h3>AI & Machine Learning</h3>
+                <p>Harness the power of AI to automate processes and gain valuable business insights.</p>
+            </div>
+
+            <div class="service-item">
+                <div class="service-number">05</div>
+                <h3>Consulting</h3>
+                <p>Expert guidance from industry veterans to transform your digital strategy.</p>
+            </div>
+
+            <div class="service-item">
+                <div class="service-number">06</div>
+                <h3>Support & Maintenance</h3>
+                <p>24/7 technical support and regular maintenance to keep your systems running smoothly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>1000+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+                <h3>50+</h3>
+                <p>Team Members</p>
+            </div>
+            <div class="stat-item">
+                <h3>10+</h3>
+                <p>Years Experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Join thousands of satisfied clients who trust us with their digital transformation journey.</p>
+            <button class="cta-button">Start Your Project Today</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>123 Tech Street, Silicon Valley, CA 94025</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hello@techflow.com</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TechFlow</h4>
+                <p>Transforming ideas into innovative digital solutions for a better tomorrow.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechFlow. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
